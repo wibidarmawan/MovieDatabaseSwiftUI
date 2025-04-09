@@ -40,4 +40,16 @@ git clone https://github.com/yourusername/MovieDatabaseSwiftUI.git
 cd MovieDatabaseSwiftUI
 ```
 
-3. Create a `Config.xcconfig` file in the project root and add your TMDB API key: 
+3. Create a `Config.xcconfig` file based on the example:
+```bash
+cp Config.example.xcconfig Config.xcconfig
+```
+
+4. Edit `Config.xcconfig` and add your TMDB API key:
+```xcconfig
+TMDB_API_KEY = your_api_key_here
+```
+
+5. Open `MovieDatabaseSwiftUI.xcodeproj` in Xcode
+
+6. Build and run the project
